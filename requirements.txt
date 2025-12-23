@@ -1,0 +1,3 @@
+pyautogui
+mcstatus
+win11toast
