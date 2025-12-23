@@ -1,14 +1,14 @@
 Auto Minecraft Server Joiner
 
 Beschreibung
-Auto Minecraft Server Joiner ist ein Python-Skript, das die Spieleranzahl eines Minecraft Java-Servers überwacht und automatisch klickt, sobald ein Slot frei wird. Zusätzlich wird eine Windows-Toast-Benachrichtigung angezeigt. Das Skript ist für Windows und 1080p-Monitore optimiert.
+Auto Minecraft Server Joiner ist ein Python-Skript, das die Spieleranzahl eines Minecraft Java-Servers überwacht und automatisch klickt, sobald ein Slot frei wird. Zusätzlich wird eine Windows-Toast-Benachrichtigung angezeigt. Das Skript ist für Windows und 1080p Auflösung optimiert.
 
 Wichtige Hinweise / Disclaimer
 Dieses Skript dient ausschließlich zu Lern- und Testzwecken. Der Autor übernimmt keine Verantwortung für Schäden, Sperrungen, Datenverlust oder rechtliche Konsequenzen, die durch die Nutzung entstehen.  
 - Minecraft muss im vollen Fenstermodus laufen.  
 - Minecraft muss nach dem Start-Countdown im Vordergrund bleiben.
 - Der Server, dem automatisch beigetreten werden soll, muss sich an erster Stelle der Minecraft-Serverliste befinden.
-- Das Skript funktioniert aktuell nur zuverlässig auf 1080p-Monitoren.  
+- Das Skript funktioniert aktuell nur zuverlässig auf 1080p-Auflösung.  
 - Mauskoordinaten müssen ggf. angepasst werden (pyautogui.moveTo(x, y)).
 
 Funktionen 
@@ -21,13 +21,13 @@ Installation und Nutzung
 1. Repository klonen.  
 2. Virtuelle Umgebung erstellen (optional).  
 3. Pakete installieren: pip install -r requirements.txt.  
-4. Skript starten: python auto_server_joiner.py.   
+4. Skript starten: python Auto Minecraft Server Joiner.py.   
 6. Achte darauf, dass Minecraft im Vordergrund läuft.
 
 Fehlerbehebung
-- Klick funktioniert nicht → Fenstermodus, Vordergrundstatus, Mauskoordinaten prüfen.  
+- Klick funktioniert nicht → Fenstermodus, Vordergrundstatus, Auflösung, Mauskoordinaten prüfen.  
 - Toast-Benachrichtigung fehlt → Windows Notification Center prüfen.  
-- mcstatus Timeout → Server-IP prüfen, Firewall prüfen, Intervall erhöhen.  
+- Durchgehende mcstatus Timeout → Server-IP prüfen, Firewall prüfen, Intervall erhöhen.  
 - Andere Auflösungen → Mauskoordinaten anpassen.
 
 FAQ
